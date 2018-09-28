@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.rollover {
+    opacity: 0;
+    transition: 0.75s;
+}
+.nav-btn{
+    cursor: pointer;
+    float: left;
+    width: 33.33%;
+}
+.rollover{
+    position: absolute;
+    top: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 20px 0 20px 0;
+    width: 33.33%;
+    text-align: left;
+}
+.rollover .text{
+    margin-left: 5%;
+}
+.nav-btn:hover .rollover {
+    opacity: 1;
+  }
+.buttons {
+    position: relative;
+}
+.examples {
+    width: 50%;
+}
+
+.fiddles{
+    float: left;
+
+}
+.websites{
+    float: right;
+
+}
+
+.exampleDesc {
+    text-align: left;
+    margin-left: 20px; 
+}
+body {
+    animation: fadein 2s;
+}
+.example {
+    padding: 20px;
+}
+@keyframes fadein {
+    from { opacity: 0;}
+    to {opacity: 1;}
+}
+a {
+    text-decoration: none !important;
+    color: black;
+}
+.pageDesc {
+    text-align: left;
+    margin-left: 20px;
+}
+.gallery img {
+    padding: 1%;
+    width: 98%;
+}
+.collumn1{
+    float: left;
+    width: 50%;
+}
+.collumn2{
+    float: right;
+    width: 50%;
+}

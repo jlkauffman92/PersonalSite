@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <svg width="500" height="300" alt="Error: 404!">
+            <text x="100" y="200" fill="black" font-size="75">Uh Oh! :(</text>
+            <text x="200" y="250" fill="black" font-size="50">404</text>
+        </svg>
+        <div id="error">
+
+        </div>
+        <a href="home">Go back to the home page</a>
+        <script>
+            url = window.location.href;
+            document.getElementById('error').innerHTML = 'The page '+ '"' + url + '" does not exist.';
+            console.log("404!");
+        </script>
+    </body>
+</html>
